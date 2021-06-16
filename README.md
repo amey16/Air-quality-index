@@ -71,3 +71,13 @@ GR  | Number of days with hail
           -pickle files for each regression technique used to preserve the model object
           
 - **front-end /flask app**
+     - **static and templates folder**
+          - staitc contains the styles.css for web page beautification
+          - templates contains home.html and results.html for predicting air quality indexes of year 2018 for delhi-safdarjang
+     - app.py
+          - python flask app to show the working of webpage
+     - Procfile,requirements.txt
+          - files neccessory to deploy the app on heroku 
+          - ***app link*** - [app](https://aqi-predict1.herokuapp.com/)
+     - ![image](https://user-images.githubusercontent.com/51751926/122184743-24acd200-ceaa-11eb-9b2e-4344f07227f0.png)
+     - ![image](https://user-images.githubusercontent.com/51751926/122184837-3e4e1980-ceaa-11eb-9604-769bf8a07e39.png)
